@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+body{
+    margin: 5px;
+}
+header{
+    border: 1px solid black;
+}
+
+ul{
+    list-style: none;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row; 
+    align-items: center;
+    margin-top: 1px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+section{
+    display: flex;
+    align-items: center;
+
+}
+#motinha{
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+}
+.motinhaSim{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+#pessoinha{
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+}
+.pessoinhaSim{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+
+}
+.navegacao{
+    width: 200vh;
+}
