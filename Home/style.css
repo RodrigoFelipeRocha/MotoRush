@@ -32,9 +32,16 @@ section{
     margin-left: 5px;
 }
 .motinhaSim{
+    display: flex;
+    align-items: center;
     height: 50px;
     width: 50px;
     margin: 5px;
+}
+p{
+    margin-left: 10px;
+    font-style: initial;
+    text-align: center;
 }
 #pessoinha{
     height: 50px;
@@ -42,11 +49,71 @@ section{
     margin-right: 5px;
 }
 .pessoinhaSim{
+    margin-left: 94px;
+    display: flex;
     height: 50px;
     width: 50px;
-    margin: 5px;
-
+    align-items: center;
 }
 .navegacao{
-    width: 200vh;
+    display: flex;
+    width: 80vw;
 }
+section{
+    display: flex;
+    /* justify-content: space-around; */
+}
+nav{
+    margin-left: 540px;
+}
+li{
+    margin-left: 55px;
+}
+
+.imgMotos{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border: 1px;
+    border-color: black;
+}
+.bannerHome{     
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    
+}
+h3{
+    margin-top: 30px;
+     
+}
+.cartaoMotos{
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.catS1000{
+    margin-top: 25px;
+}
+.borderBody{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.tituloCatMoto{
+    font-size: x-large;
+    margin-right: 250px;
+
+}
+.descMotos{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+#imgMotoCat{
+    margin-top: 18px;
+}
+
+
