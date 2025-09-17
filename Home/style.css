@@ -1,119 +1,190 @@
-*{
+* {
     margin: 0;
 }
-body{
+
+body {
     margin: 5px;
 }
-header{
+
+header {
     border: 1px solid black;
 }
 
-ul{
+ul {
     list-style: none;
-    
+
     display: flex;
     justify-content: space-around;
-    flex-direction: row; 
+    flex-direction: row;
     align-items: center;
     margin-top: 1px;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
-section{
+
+section {
     display: flex;
     align-items: center;
 
 }
-#motinha{
+
+#motinha {
     height: 50px;
     width: 50px;
     margin-left: 5px;
 }
-.motinhaSim{
+
+.motinhaSim {
     display: flex;
     align-items: center;
     height: 50px;
     width: 50px;
     margin: 5px;
 }
-p{
+
+p {
     margin-left: 10px;
     font-style: initial;
     text-align: center;
 }
-#pessoinha{
+
+#pessoinha {
     height: 50px;
     width: 50px;
     margin-right: 5px;
 }
-.pessoinhaSim{
+
+.pessoinhaSim {
     margin-left: 94px;
     display: flex;
     height: 50px;
     width: 50px;
     align-items: center;
 }
-.navegacao{
+
+.navegacao {
     display: flex;
     width: 80vw;
 }
-section{
+
+section {
     display: flex;
     /* justify-content: space-around; */
 }
-nav{
+
+nav {
     margin-left: 540px;
 }
-li{
+
+li {
     margin-left: 55px;
 }
 
-.imgMotos{
+.imgMotos {
     display: flex;
     justify-content: space-around;
     padding: 20px;
     border: 1px;
     border-color: black;
 }
-.bannerHome{     
+
+.bannerHome {
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-    
+
 }
-h3{
+
+h3 {
     margin-top: 30px;
-     
+
 }
-.cartaoMotos{
+
+.cartaoMotos {
     padding: 45px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-.catS1000{
+
+.catS1000 {
     margin-top: 25px;
 }
-.borderBody{
+
+.borderBody {
     border: 1px solid black;
     display: flex;
-    flex-direction: row;
 }
-.tituloCatMoto{
+
+.tituloCatMoto {
     font-size: x-large;
     margin-right: 250px;
 
 }
-.descMotos{
+
+.descMotos {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-around;
-    
-    
+    width: 100vw;
+
 }
-#imgMotoCat{
+
+#imgMotoCat {
     margin-top: 18px;
+    margin-bottom: 15px;
 }
 
+#botaoCompra {
+    height: 50px;
+    width: 128px;
+    color: black;
+    background-color: green;
+    border-radius: 15px;
+}
 
+.divBotaoCompra {
+    height: 20px;
+    width: 125px;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.confMoto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 150px;
+    
+}
+
+.valorMot {
+    height: 22px;
+    margin-left: 12px;
+}
+
+.titulosDescMoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.descricaoMoto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+}
+.areaLogin{
+    width: 50%;
+}
+.imgLogin{
+    width: 50%;
+}
