@@ -141,10 +141,10 @@ h3 {
 
 #botaoCompra {
     height: 50px;
-    width: 128px;
-    color: black;
-    background-color: green;
-    border-radius: 15px;
+    width: 175px;
+    color: white;
+    background-color: green  ;
+    border-radius: 25px;
 }
 
 .divBotaoCompra {
@@ -164,7 +164,7 @@ h3 {
 
 .valorMot {
     height: 22px;
-    margin-left: 12px;
+    margin-left: 28px;
 }
 
 .titulosDescMoto {
@@ -183,8 +183,25 @@ h3 {
     padding: 70px;
 }
 .areaLogin{
-    width: 50%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .imgLogin{
-    width: 50%;
+    width: 35%;
+}
+#imagemPerfil{
+    width: 150px;
+    height: 150px;
+}
+.inputLogin{
+    width: 300px;
+    height: 25px;
+    margin-bottom: 15px;
+}
+.inputSenha{
+    width: 300px;
+    height: 25px;
+    margin-bottom: 15px;
 }
